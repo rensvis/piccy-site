@@ -7,7 +7,7 @@ const Home = () => {
       <StyledHome>
         <img
           className="piccy-logo"
-          src="assets/images/piccy-logo-400.png"
+          src="assets/images/Piccy-logo-400.png"
           alt="Piccy logo"
         />
         {/* <h3>Download Piccy in de App Stores!</h3> */}
