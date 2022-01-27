@@ -18,6 +18,7 @@ const StyledHeader: FC = styled.div`
 
     & img {
       height: 30px;
+      width: 37px;
       object-fit: contain;
       margin-right: 10px;
     }
