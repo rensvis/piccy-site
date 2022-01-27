@@ -12,14 +12,20 @@ const Home = () => {
         />
         {/* <h3>Download Piccy in de App Stores!</h3> */}
         <div className="app-store-badges">
-          <a href="/">
+          <a
+            href="https://apps.apple.com/us/app/piccy/id1599728930"
+            target="_blank"
+          >
             <img
               src="assets/images/app-store-badge.png"
               alt="App Store"
               className="app-store"
             />
           </a>
-          <a href="/">
+          <a
+            href="https://play.google.com/store/apps/details?id=app.piccy"
+            target="_blank"
+          >
             <img
               src="assets/images/google-play-badge.png"
               alt="Google Play Store"
