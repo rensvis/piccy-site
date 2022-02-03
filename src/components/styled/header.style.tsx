@@ -17,8 +17,7 @@ const StyledHeader: FC = styled.div`
     align-items: center;
 
     & img {
-      height: 30px;
-      width: 37px;
+      height: 40px;
       object-fit: contain;
       margin-right: 10px;
     }

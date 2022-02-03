@@ -7,7 +7,7 @@ const Home = () => {
       <StyledHome>
         <img
           className="piccy-logo"
-          src="assets/images/Piccy-logo-400.png"
+          src={require("../assets/images/Piccy-logo-400.png")}
           alt="Piccy logo"
         />
         {/* <h3>Download Piccy in de App Stores!</h3> */}
@@ -18,7 +18,7 @@ const Home = () => {
             rel="noreferrer"
           >
             <img
-              src="assets/images/app-store-badge.png"
+              src={require("../assets/images/app-store-badge.png")}
               alt="App Store"
               className="app-store"
             />
@@ -29,7 +29,7 @@ const Home = () => {
             rel="noreferrer"
           >
             <img
-              src="assets/images/google-play-badge.png"
+              src={require("../assets/images/google-play-badge.png")}
               alt="Google Play Store"
               className="google-play-store"
             />

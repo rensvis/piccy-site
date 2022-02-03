@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 import StyledHeader from "../styled/header.style";
 import Layout from "../styled/layout";
 
-// import '../../assets/images/piccy-logo-100.png'
-
 const SiteHeader: FC = () => {
   return (
     <StyledHeader>
@@ -13,8 +11,11 @@ const SiteHeader: FC = () => {
         <div className="header-content">
           <Link to="/">
             <div className="site-logo">
-              <img src="assets/images/piccy-logo-50.png" alt="Piccy logo" />
-              <h2>Piccy</h2>
+              <img
+                src={require("../../assets/images/Piccy-logo-hor-211x67.png")}
+                alt="Piccy logo"
+              />
+              {/* <h2>Piccy</h2> */}
             </div>
           </Link>
 
