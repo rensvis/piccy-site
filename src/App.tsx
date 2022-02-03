@@ -15,7 +15,7 @@ const App = () => {
       <Router>
         <SiteHeader></SiteHeader>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/*" element={<Home />} />
           {/* <Route  path="/privacy-policy" element={<PrivacyPolicy/>}/> */}
         </Routes>
       </Router>
